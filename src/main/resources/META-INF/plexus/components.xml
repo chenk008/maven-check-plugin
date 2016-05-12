@@ -1,0 +1,40 @@
+
+
+<component-set>
+  <components>
+
+    <component>
+      <role-hint>pv</role-hint>
+      <role>org.apache.maven.artifact.repository.metadata.RepositoryMetadataManager</role>
+      <implementation>com.alibaba.maven.plugins.pom.versions.service.PomVersionRepositoryMetadataManager
+      </implementation>
+      <requirements>
+        <requirement>
+          <role>org.apache.maven.artifact.manager.WagonManager</role>
+        </requirement>
+      </requirements>
+    </component>
+
+    <component>
+      <role>com.alibaba.maven.plugins.pom.versions.service.RemoteArtifactRepositoriesReadService</role>
+      <implementation>com.alibaba.maven.plugins.pom.versions.service.RemoteArtifactRepositoriesReadService
+      </implementation>
+      <requirements>
+        <requirement>
+          <role>org.apache.maven.artifact.repository.layout.ArtifactRepositoryLayout</role>
+        </requirement>
+      </requirements>
+    </component>
+        
+    <component>
+      <role>com.alibaba.maven.plugins.pom.versions.service.check.CheckConflictService</role>
+      <implementation>com.alibaba.maven.plugins.pom.versions.service.check.CheckConflictService</implementation>
+    </component>
+
+    <component>
+      <role>com.alibaba.maven.plugins.pom.versions.service.check.ProcessConflictService</role>
+      <implementation>com.alibaba.maven.plugins.pom.versions.service.check.ProcessConflictService</implementation>
+    </component>
+
+  </components>
+</component-set>
