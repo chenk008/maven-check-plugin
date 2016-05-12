@@ -1,35 +1,32 @@
-²å¼þÌØµã
-³£¹æ·ÖÎöÒÀÀµ³åÍ»£¬ÊÇÍ¨¹ý·ÖÎöpom.xml¶¨ÒåµÄmavenÒÀÀµ×ø±êÖ®¼äµÄÇø±ð£¨gid¡¢aid¡¢version£©£¬ÕâÑùµÄÅÅ²éÓÐÒÔÏÂ¼¸¸ö²»×ã£º
-1¡¢Á½¸öÒÀÀµ£¬Èç¹û×ø±êÍêÈ«²»Ò»Ñù£¬ÎÞ·¨Ê¶±ð³öÊÇ·ñ³åÍ»¡£
-2¡¢Ò»¸öÒÀÀµ°üº¬ÁíÒ»¸öÒÀÀµ£¬ÎÞ·¨Ê¶±ðÁ½ÕßÊÇ·ñ´æÔÚ²¿·Ö³åÍ»¡£
-3¡¢ÒÀÀµÊ÷·Ç³£ÅÓ´ó£¬¿ª·¢ÈËÔ±ÄÑÃâ»áÂ©¸ÄÒ»¸ö³åÍ»¡£
-4¡¢pom¶¨ÒåÎ´±ä£¬ÒÀÀµÊ÷µÄ±ä»¯£¬Î´Öª»á¿ª·¢ÈËÔ±£¬µ¼ÖÂ²úÉúÐÂµÄ³åÍ»¡£
-ÎªÁËÃÖ²¹ÉÏÊö²»×ã£¬±¾²å¼þ²ÉÓÃÖ±½ÓÖÙ²Ã·ÖÎö°üÄÚÈÝµÄ·½Ê½£¬·ÖÎöÃ¿¸öÀà´Ó¶ø¸ü¾«È·µÄÕÒ³öÇ±ÔÚµÄÍþÐ²¡£
-±ê×¼µÄmaven²å¼þ£¬¿ÉÒÔºÜ·½±ãµÄÊ¹ÓÃ£¬ÒÔ¼°¼¯³ÉÆäËüÏµÍ³¡£±ÈÈç£ºaone
+ï¿½ï¿½ï¿½ï¿½Øµï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½pom.xmlï¿½ï¿½ï¿½ï¿½ï¿½mavenï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gidï¿½ï¿½aidï¿½ï¿½versionï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ã£º
+1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È«ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Þ·ï¿½Ê¶ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½Í»ï¿½ï¿½
+2ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ·ï¿½Ê¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½Ú²ï¿½ï¿½Ö³ï¿½Í»ï¿½ï¿½
+3ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç³ï¿½ï¿½Ó´ó£¬¿ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½Â©ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½
+4ï¿½ï¿½pomï¿½ï¿½ï¿½ï¿½Î´ï¿½ä£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ä»¯ï¿½ï¿½Î´Öªï¿½á¿ªï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½Â²ï¿½ï¿½ï¿½ï¿½ÂµÄ³ï¿½Í»ï¿½ï¿½
+Îªï¿½ï¿½ï¿½Ö²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ã£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö±ï¿½ï¿½ï¿½Ù²Ã·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÝµÄ·ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½Ó¶ï¿½ï¿½È·ï¿½ï¿½ï¿½Ò³ï¿½Ç±ï¿½Úµï¿½ï¿½ï¿½Ð²ï¿½ï¿½
+ï¿½ï¿½×¼ï¿½ï¿½mavenï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÔºÜ·ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ã£ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½ï¿½ï¿½ï¿½ç£ºaone
 
  
 
-²å¼þ½éÉÜ
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 mvn pv:check 
-Ö§³ÖÈÎºÎ´ò°üÐÎÊ½µÄmaven¹¤³Ì¡£jar¡¢war¡¢earµÈ¡£
+Ö§ï¿½ï¿½ï¿½ÎºÎ´ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½mavenï¿½ï¿½ï¿½Ì¡ï¿½jarï¿½ï¿½warï¿½ï¿½earï¿½È¡ï¿½
 
 mvn pv:check-war 
-×¨ÃÅÎªwar¹¤³ÌÉè¼Æ£¬·ÖÎöwar°üµÄlibÄ¿Â¼ÖÐµÄjar³åÍ»¡£ ×¢£ºcheck²å¼þÉ¨ÃèmavenÒÀÀµÊ÷£¬check-war²å¼þÉ¨Ãèwar°ülibÄ¿Â¼¡£
+×¨ï¿½ï¿½Îªwarï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ£ï¿½ï¿½ï¿½ï¿½ï¿½warï¿½ï¿½ï¿½libÄ¿Â¼ï¿½Ðµï¿½jarï¿½ï¿½Í»ï¿½ï¿½ ×¢ï¿½ï¿½checkï¿½ï¿½ï¿½É¨ï¿½ï¿½mavenï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½check-warï¿½ï¿½ï¿½É¨ï¿½ï¿½warï¿½ï¿½libÄ¿Â¼ï¿½ï¿½
 
-²å¼þÊ¹ÓÃ
-ÊÖ¶¯ÔËÐÐ
-Ö±½ÓÔÚÃüÁîÐÐÔËÐÐ¡£
+ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½
+ï¿½Ö¶ï¿½ï¿½ï¿½ï¿½ï¿½
+Ö±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½
 
-ÀýÈç£ºmvn pv:check »òÕß mvn com.alibaba.maven.plugins:maven-pv-plugin:1.1-SNAPSHOT:check
-mvn pv:check -DcheckPackaging=war,car -DcheckWithoutScope=test,provided,system
 
-»òÕß mavn pv:check-war »òÕß mvn com.alibaba.maven.plugins:maven-pv-plugin:1.1-SNAPSHOT:check-war
 
-×Ô¶¯ÔËÐÐ£¬°ó¶¨ÉùÃ÷ÖÜÆÚ¡£ÔÚpomÖÐ¶¨Òå£¨¿ÉÒÔÖ±½Ó¶¨ÒåÔÚµ±Ç°¹¤³Ì£¬Ò²¿ÉÒÔ¶¨ÒåÔÚµ±Ç°¹¤³ÌµÄ¸¸POMÉÏ£©
-pv:check £¨Ä¬ÈÏ°ó¶¨ generate-sources ÉùÃ÷ÖÜÆÚ£©¡£°ó¶¨ºó£¬ÔËÐÐ²å¼þ²»ÐèÒªÊ²Ã´ÌØÊâµÄ²Ù×÷£¬±àÒëÏîÄ¿²å¼þ×Ô¶¯½øÐÐÉ¨Ãè¡£
+ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¡ï¿½ï¿½ï¿½pomï¿½Ð¶ï¿½ï¿½å£¨ï¿½ï¿½ï¿½ï¿½Ö±ï¿½Ó¶ï¿½ï¿½ï¿½ï¿½Úµï¿½Ç°ï¿½ï¿½ï¿½Ì£ï¿½Ò²ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½Úµï¿½Ç°ï¿½ï¿½ï¿½ÌµÄ¸ï¿½POMï¿½Ï£ï¿½
+pv:check ï¿½ï¿½Ä¬ï¿½Ï°ï¿½ generate-sources ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú£ï¿½ï¿½ï¿½ï¿½ó¶¨ºï¿½ï¿½ï¿½ï¿½Ð²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒªÊ²Ã´ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½É¨ï¿½è¡£
 
 <plugin>
-  <groupId>com.alibaba.maven.plugins</groupId>
+  <groupId>org.ck.maven.plugins</groupId>
   <artifactId>maven-pv-plugin</artifactId>
   <version>${pv.version}</version>
   <executions>
@@ -41,10 +38,10 @@ pv:check £¨Ä¬ÈÏ°ó¶¨ generate-sources ÉùÃ÷ÖÜÆÚ£©¡£°ó¶¨ºó£¬ÔËÐÐ²å¼þ²»ÐèÒªÊ²Ã´ÌØÊâµ
     </execution>
   </executions>
 </plugin>
- pv:check-war £¨Ä¬ÈÏ°ó¶¨ package ÉùÃ÷ÖÜÆÚ£©¡£°ó¶¨ºó£¬ÔËÐÐ²å¼þ²»ÐèÒªÊ²Ã´ÌØÊâµÄ²Ù×÷£¬war´ò°üÊ±²å¼þ×Ô¶¯½øÐÐÉ¨Ãè¡£
+ pv:check-war ï¿½ï¿½Ä¬ï¿½Ï°ï¿½ package ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú£ï¿½ï¿½ï¿½ï¿½ó¶¨ºï¿½ï¿½ï¿½ï¿½Ð²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒªÊ²Ã´ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½warï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½É¨ï¿½è¡£
 
 <plugin>
-  <groupId>com.alibaba.maven.plugins</groupId>
+  <groupId>org.ck.maven.plugins</groupId>
   <artifactId>maven-pv-plugin</artifactId>
   <version>${pv.version}</version>
   <executions>
@@ -57,50 +54,49 @@ pv:check £¨Ä¬ÈÏ°ó¶¨ generate-sources ÉùÃ÷ÖÜÆÚ£©¡£°ó¶¨ºó£¬ÔËÐÐ²å¼þ²»ÐèÒªÊ²Ã´ÌØÊâµ
   </executions>
 </plugin>
 
-²å¼þÉ¨Ãè»áÉú³ÉÒ»¸öÖÙ²Ã±¨¸æ£¬¿ª·¢ÈËÔ±¸ù¾ÝÕâ¸öÖÙ²Ã±¨¸æ¿ÉÒÔÈË¹¤½øÐÐ³åÍ»ÐÞ¸´ÁË¡£
+ï¿½ï¿½ï¿½É¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ù²Ã±ï¿½ï¿½æ£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù²Ã±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¹ï¿½ï¿½ï¿½ï¿½Ð³ï¿½Í»ï¿½Þ¸ï¿½ï¿½Ë¡ï¿½
 
 
 
 
-ÖÙ²Ã±¨¸æ¸÷¸ö²¿·ÖËµÃ÷
-Id£º³åÍ»±àºÅ£¬Ò»¸öÎ¨Ò»±êÊ¶£¬ÔÚºöÂÔÉ¨ÃèÖÐ»áÓÃµ½¡£
-Level£º³åÍ»¼¶±ð¡£ÓÐ3¸öÖµ£¬Ò»¸öÊÇfatal¡¢Ò»¸öÊÇerror¡¢Ò»¸öÊÇwarn¡£
-          fatal£ºÕâ¸ö³åÍ»±ØÐëÅÅ³ý£¬ÓÐ¿ÉÄÜ»á²úÉúÑÏÖØºó¹û£¬³öÏÖÕâÖÖ¼¶±ðµÄ³åÍ»¡£
-          error£ºÕâ¸ö³åÍ»¿ÉÒÔ²»ÅÅ³ý£¬³åÍ»°üÉ¨Ãè·¢ÏÖMD5ÂëÊÇÒ»ÑùµÄ£¬´ò°üºóÖ»»áÔö¼ÓÌå»ý£¬µ«²»Ó°Ïì³ÌÐòÎÈ¶¨£¬½¨ÒéÅÅ³ýÒ»ÏÂ¡£
-          warn£ºÕâ¸ö³åÍ»£¬²»Ò»¶¨»á²úÉúÑÏÖØºó¹û£¬¶à¸öÒÀÀµÖ®¼äÖ»ÊÇ²¿·Ö³åÍ»¡£´ò°ü²»Ê§°Ü£¬Ö»ÊÇÌáÊ¾¶øÒÑ¡££¨*¿ª·¢ÈËÔ±×ÔÐÐÅÐ¶ÏÊÇ·ñÒª´¦Àí£©
-Count£ºÉ¨Ãèµ½Õâ¸ö³åÍ»ÏîÒ»¹²ÓÐ¶àÉÙ¸öÀà³åÍ»¡£
-Detail£ºÃ¿¸öÒÀÀµµÄÃû×Ö£¬£¨£©ÀïÃæÊÇÕâ¸öjarÒ»¹²°üº¬ÓÐÉÙ¸öÀà
+ï¿½Ù²Ã±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½
+Idï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½Å£ï¿½Ò»ï¿½ï¿½Î¨Ò»ï¿½ï¿½Ê¶ï¿½ï¿½ï¿½Úºï¿½ï¿½ï¿½É¨ï¿½ï¿½ï¿½Ð»ï¿½ï¿½Ãµï¿½ï¿½ï¿½
+Levelï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½3ï¿½ï¿½Öµï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½fatalï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½errorï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½warnï¿½ï¿½
+          fatalï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½Å³ï¿½ï¿½Ð¿ï¿½ï¿½Ü»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Øºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½Ä³ï¿½Í»ï¿½ï¿½
+          errorï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½Ô²ï¿½ï¿½Å³ï¿½ï¿½Í»ï¿½ï¿½É¨ï¿½è·¢ï¿½ï¿½MD5ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å³ï¿½Ò»ï¿½Â¡ï¿½
+          warnï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Øºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½Ö»ï¿½Ç²ï¿½ï¿½Ö³ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½Ö»ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½Ç·ï¿½Òªï¿½ï¿½ï¿½?
+Countï¿½ï¿½É¨ï¿½èµ½ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½Ù¸ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½
+Detailï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jarÒ»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¸ï¿½ï¿½ï¿½
 
-Ð¡ÌáÊ¾£ºÈçºÎ¿´¶®ÖÙ²Ã±¨¸æ£¬ÅÐ¶Ïµ½µ×ÄÄ¸öÒÀÀµÓ¦¸Ã±»Ìßµô£¿
+Ð¡ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½Î¿ï¿½ï¿½ï¿½ï¿½Ù²Ã±ï¿½ï¿½æ£¬ï¿½Ð¶Ïµï¿½ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½Ã±ï¿½ï¿½ßµï¿½ï¿½ï¿½
 
-¾ÙÀý£º
-1¡¢a.jarºÍb.jar¡£a.jarÀïÓÐ10¸öÀà£¬b.jarÀïÓÐ10¸öÀà£¬É¨Ãèµ½³åÍ»countÓÐ10¸ö¡£
-ºÜÏÔÈ»2ÕßÊÇ100%³åÍ»£¬³åÍ»¼¶±ðfatal£¬±ØÐëÅÅ²é¡£2ÕßËæ±ãÅÅ³ýµôÒ»¸ö
-2¡¢a1.jarºÍb1.jar¡£a1.jarÀïÓÐ10¸öÀà£¬b1.jarÀïÓÐ10¸öÀà£¬É¨Ãèµ½³åÍ»countÓÐ10¸ö¡£
-ºÜÏÔÈ»2ÕßÊÇ100%³åÍ»£¬µ«ÊÇÉ¨Ãè·¢ÏÖ¶þÕßMD5Ò»ÖÂ£¬³åÍ»¼¶±ðerror£¬³åÍ»µÄ°ü²»Ó°Ïì³ÌÐòÎÈ¶¨£¬Ö»ÊÇ´ò°üºóÌå»ýÔö´ó£¬½¨ÒéÅÅ³ýÒ»¸ö¡£
-3¡¢c.jarºÍd.jar¡£c.jarÀïÓÐ10¸öÀà£¬d.jarÀïÓÐ6¸öÀà£¬É¨Ãèµ½³åÍ»countÓÐ6¸ö¡£
-ºÜÏÔÈ»c.jarÒ»¶¨°üº¬ÁËd.jarµÄËùÓÐÀà£¬³åÍ»¼¶±ðerror£¬±ØÐëÅÅ²é¡£Ó¦¸Ã°Ñd.jarÅÅ³ý¡£
-4¡¢e.jarºÍf.jar¡£e.jarÀïÓÐ20¸öÀà£¬f.jarÀïÓÐ15¸öÀà£¬É¨Ãèµ½³åÍ»countÓÐ10¸ö¡£
-Õâ¸ö¾Í²»ºÃËµÁË£¬2ÕßÖ»ÊÇ²¿·Ö³åÍ»£¬ÓÐÒ»¸ö½»¼¯£¬³åÍ»¼¶±ðwarn£¬ÊÇ·ñ´¦Àí¾ßÌåÎÊÌâ¾ßÌå·ÖÎö£¬¿ª·¢ÈËÔ±×ÔÐÐÅÐ¶Ï¡£
+ï¿½ï¿½ï¿½ï¿½
+1ï¿½ï¿½a.jarï¿½ï¿½b.jarï¿½ï¿½a.jarï¿½ï¿½ï¿½ï¿½10ï¿½ï¿½ï¿½à£¬b.jarï¿½ï¿½ï¿½ï¿½10ï¿½ï¿½ï¿½à£¬É¨ï¿½èµ½ï¿½ï¿½Í»countï¿½ï¿½10ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½È»2ï¿½ï¿½ï¿½ï¿½100%ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½fatalï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å²é¡£2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å³ï¿½ï¿½Ò»ï¿½ï¿½
+2ï¿½ï¿½a1.jarï¿½ï¿½b1.jarï¿½ï¿½a1.jarï¿½ï¿½ï¿½ï¿½10ï¿½ï¿½ï¿½à£¬b1.jarï¿½ï¿½ï¿½ï¿½10ï¿½ï¿½ï¿½à£¬É¨ï¿½èµ½ï¿½ï¿½Í»countï¿½ï¿½10ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½È»2ï¿½ï¿½ï¿½ï¿½100%ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¨ï¿½è·¢ï¿½Ö¶ï¿½ï¿½ï¿½MD5Ò»ï¿½Â£ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½errorï¿½ï¿½ï¿½ï¿½Í»ï¿½Ä°ï¿½Ó°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¶ï¿½ï¿½ï¿½Ö»ï¿½Ç´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ó£¬½ï¿½ï¿½ï¿½ï¿½Å³ï¿½Ò»ï¿½ï¿½ï¿½ï¿½
+3ï¿½ï¿½c.jarï¿½ï¿½d.jarï¿½ï¿½c.jarï¿½ï¿½ï¿½ï¿½10ï¿½ï¿½ï¿½à£¬d.jarï¿½ï¿½ï¿½ï¿½6ï¿½ï¿½ï¿½à£¬É¨ï¿½èµ½ï¿½ï¿½Í»countï¿½ï¿½6ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½È»c.jarÒ»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½d.jarï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½à£¬ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½errorï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å²é¡£Ó¦ï¿½Ã°ï¿½d.jarï¿½Å³ï¿½
+4ï¿½ï¿½e.jarï¿½ï¿½f.jarï¿½ï¿½e.jarï¿½ï¿½ï¿½ï¿½20ï¿½ï¿½ï¿½à£¬f.jarï¿½ï¿½ï¿½ï¿½15ï¿½ï¿½ï¿½à£¬É¨ï¿½èµ½ï¿½ï¿½Í»countï¿½ï¿½10ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½Í²ï¿½ï¿½ï¿½Ëµï¿½Ë£ï¿½2ï¿½ï¿½Ö»ï¿½Ç²ï¿½ï¿½Ö³ï¿½Í»ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½warnï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶Ï¡ï¿½
 
 
 
-²å¼þÈÕÖ¾½á¹ûËµÃ÷
-B2B¸úÌÔ±¦µÄmvn²Ö¿âºÏ²¢ºó£¬Í¬ÃûÀà³åÍ»µÄÎÊÌâÒ»Ö±À§ÈÅÎÒÃÇ£¬Ä¿Ç°ÒÑ¾­ÔÚ¶¥¼¶pomÉÏÅäÖÃÁËÒ»¸öÍ¬ÃûÀà³åÍ»µÄ¼ì²â²å¼þ£¬ÔÚÃ¿´Î±àÒëµÄÊ±ºòÄ¬ÈÏÖ´ÐÐ£¬²¢ÔÚ±àÒëÈÕÖ¾ÖÐÊä³ö³åÍ»ÏêÇé¡£
+ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½Ëµï¿½ï¿½
+B2Bï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½mvnï¿½Ö¿ï¿½Ï²ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ö±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½Ä¿Ç°ï¿½Ñ¾ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½pomï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½Î±ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Ä¬ï¿½ï¿½Ö´ï¿½Ð£ï¿½ï¿½ï¿½ï¿½Ú±ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½é¡£
 
-Ò»¡¢ÒÔÏÂÊÇ³åÍ»ÈÕÖ¾µÄÏêÏ¸½â¶Á
+Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç³ï¿½Í»ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½ï¿½
 
-Êä³öÈÕÖ¾	×¢½â
+ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾	×¢ï¿½ï¿½
 [INFO] [pv:check{execution:check}] 
- [INFO]Documentation:http://docs.alibaba-inc.com/pages/viewpage.actionpageId=52111636 
 [INFO] Check project packaging type : war,ali-war 
 [INFO] Check dependency without scope type : test,provided 
-¡­¡­ 
+ï¿½ï¿½ï¿½ï¿½ 
 [INFO] Scan to 484 dependencies 
 [INFO] +- activation-1.1.jar:compile 
 [INFO] +- ajax.json.java-0.0.0.jar:compile 
 [INFO] +- ajax.jsonlib-0.0.0.jar:compile 
-¡­¡­ 
+ï¿½ï¿½ï¿½ï¿½ 
 conflict output begin 
 --------------------------------------------------------------------------------------------- 
 The jars conflict. 
@@ -109,9 +105,7 @@ Level : fatal
 Count : 105 
 Detail : 
 org.mortbay.jetty:jetty-util:jar:6.1.26:compile >> jetty-util-6.1.26.jar (105) 
-com.alibaba.external:server.jetty.jetty-util:jar:6.1.21:compile >> server.jetty.jetty-util-6.1.21.jar (105) 
 org.mortbay.jetty:jetty-util:jar:6.1.26:compile >> jetty-util-6.1.26.jar (105) 
-com.alibaba.external:server.jetty.jetty-util:jar:6.1.21:compile >> server.jetty.jetty-util-6.1.21.jar (105) 
 ----------------------------------------------------------------------------------------------------------------  
 The jars may be the inclusion relationship conflict. 
 Id : commons-beanutils-1.8.0.jar,commons-beanutils-core-1.8.0.jar 
@@ -127,7 +121,6 @@ Level : error
 Count : 190 
 Detail : 
 dom4j:dom4j:jar:1.6.1:compile >> dom4j-1.6.1.jar (190) 
-com.alibaba.external:xml.dom4j:jar:1.6.1:compile >> xml.dom4j-1.6.1.jar (190) 
 ----------------------------------------------------------------------------------------------------------------- 
 The jars cannot determine the logic of conflict. 
 Id : jsp-2.1-6.1.14.jar,jasper-compiler-5.5.23.jar 
@@ -144,20 +137,20 @@ conflict output end
 [INFO] error level : 12 
 [INFO] warn  level : 59 
 
-²å¼þÃû³Æ¼°¿ªÊ¼±ê¼Ç 
-²å¼þµÄÏêÏ¸ËµÃ÷ÎÄµµ£¬¿ª·¢Ò²¿ÉÊÖ¹¤±¾µØÃüÁî·½Ê½ÔËÐÐ 
-¶¥¼¶pomÉÏÄ¬ÈÏÖ¸¶¨²å¼þ¼ì²âµÄpackagingÀàÐÍ 
-¶¥¼¶pomÉÏÄ¬ÈÏÖ¸¶¨²å¼þ¼ì²âµÄjarÉúÐ§·¶Î§ 
+ï¿½ï¿½ï¿½ï¿½ï¿½Æ¼ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ 
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸Ëµï¿½ï¿½ï¿½Äµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½î·½Ê½ï¿½ï¿½ï¿½ï¿½ 
+ï¿½ï¿½ï¿½ï¿½pomï¿½ï¿½Ä¬ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½packagingï¿½ï¿½ï¿½ï¿½ 
+ï¿½ï¿½ï¿½ï¿½pomï¿½ï¿½Ä¬ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jarï¿½ï¿½Ð§ï¿½ï¿½Î§ 
   
-´òµ½war°üÀïµÄjar×ÜÊý£¬ÏÂÃæÊä³öÁÐ³ö´òµ½warÖÐµÄjar 
-  
-  
+ï¿½ï¿½warï¿½ï¿½ï¿½ï¿½ï¿½jarï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð³ï¿½ï¿½ï¿½warï¿½Ðµï¿½jar 
   
   
   
-³åÍ»µÄjarÊä³ö¿ªÊ¼ 
+  
+  
+ï¿½ï¿½Í»ï¿½ï¿½jarï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ 
 ------------------------------------------------------------------------------ 
-Á½¸öjarµÄclassÊýÁ¿ÏàµÈ£¬µ«ÊÇmd5²»Ò»ÖÂ£¬ÕâÖÖ³åÍ»¿ÉÄÜÊÇÍ¬Ò»¸ö¿âÒýÈë²»Í¬×ø±ê²»Í¬°æ±¾µÄjar£¬ÕâÖÖ·çÏÕÍùÍùÊÇÖÂÃüµÄ£¬±ØÐëÅÅ³ý¡£ 
+ï¿½ï¿½ï¿½ï¿½jarï¿½ï¿½classï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È£ï¿½ï¿½ï¿½ï¿½ï¿½md5ï¿½ï¿½Ò»ï¿½Â£ï¿½ï¿½ï¿½ï¿½Ö³ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë²»Í¬ï¿½ï¿½ê²»Í¬ï¿½æ±¾ï¿½ï¿½jarï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å³ï¿½ 
   
   
   
@@ -167,7 +160,7 @@ conflict output end
 
 
 ------------------------------------------------------------------------------------------------- 
-³åÍ»µÄclassÊýÁ¿¸ÕºÃµÈÓÚÆäÖÐclassÊýÁ¿Ð¡µÄjar,ÕâÖÖ³åÍ»¿ÉÄÜÊÇ¸¸°üºÍ×Ó°üµÄ¹ØÏµ£¬Èç¹ûÍêÈ«°üº¬ÄÇ·çÏÕ²»´ó£¬Èç¹û°æ±¾²»Ò»ÖÂÄÇÒ²¿ÉÄÜÊÇÖÂÃüµÄ¡£ÐèÒª·ÖÎöºóÅÅ³ý£¬webx2µÈ¿ò¼ÜµÄjarÕâÖÖÇé¿öºÜ¶à¡£ 
+ï¿½ï¿½Í»ï¿½ï¿½classï¿½ï¿½ï¿½ï¿½ï¿½ÕºÃµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½classï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½jar,ï¿½ï¿½ï¿½Ö³ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ï¿½ï¿½ï¿½ï¿½Ó°ï¿½Ä¹ï¿½Ïµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È«ï¿½ï¿½ï¿½Ç·ï¿½ï¿½Õ²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ±¾ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å³ï¿½webx2ï¿½È¿ï¿½Üµï¿½jarï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü¶à¡£ 
   
   
   
@@ -175,47 +168,47 @@ conflict output end
   
 
 ------------------------------------------------------------------------------------------------ 
-ÕâÖÖ³åÍ»ÊÇÍ¬Ò»¸ö¿âÒýÈëÁË²»Í¬×ø±êµÄjar£¬ÒòÎªÆämd5ÊÇÒ»ÖÂµÄ£¬Òò´ËÀíÂÛÉÏ²»»áÔì³É·çÏÕ£¬µ«ÊÇ»áµ¼ÖÂwarÀï°üµÄÈßÓà£¬½¨ÒéÅÅ³ý£¬Åä¹ÜÕâ±ßÒ²ÕýÔÚºÍ¼Ü¹¹Ê¦Ò»ÆðÔÚ¸ãÍ³Ò»½â¾ö·½°¸¡£ 
+ï¿½ï¿½ï¿½Ö³ï¿½Í»ï¿½ï¿½Í¬Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë²ï¿½Í¬ï¿½ï¿½ï¿½ï¿½jarï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½md5ï¿½ï¿½Ò»ï¿½ÂµÄ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï²ï¿½ï¿½ï¿½ï¿½ï¿½É·ï¿½ï¿½Õ£ï¿½ï¿½ï¿½ï¿½Ç»áµ¼ï¿½ï¿½warï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½à£¬ï¿½ï¿½ï¿½ï¿½ï¿½Å³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ÚºÍ¼Ü¹ï¿½Ê¦Ò»ï¿½ï¿½ï¿½Ú¸ï¿½Í³Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 
   
   
   
   
   -------------------------------------------------------------------------------------------------- 
-³åÍ»µÄclassÊýÁ¿²»µÈÓÚÈÎºÎÒ»¸öjar£¬ÕâÖÖ³åÍ»ÎÞ·¨ÅÐ¶Ï³åÍ»µÄÂß¼­¹ØÏµ£¬Ò»°ãºÜÄÑ¼òµ¥µÄÅÅ³ýÆäÖÐÒ»¸ö¡£ 
+ï¿½ï¿½Í»ï¿½ï¿½classï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îºï¿½Ò»ï¿½ï¿½jarï¿½ï¿½ï¿½ï¿½ï¿½Ö³ï¿½Í»ï¿½Þ·ï¿½ï¿½Ð¶Ï³ï¿½Í»ï¿½ï¿½ï¿½ß¼ï¿½ï¿½ï¿½Ïµï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ñ¼òµ¥µï¿½ï¿½Å³ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ 
   
   
   
   
   
 ------------------------------------------------------------------------------------------------- 
-³åÍ»µÄjarÊä³ö½áÊø 
+ï¿½ï¿½Í»ï¿½ï¿½jarï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 
 ********************************************** 
-¼ì²â³ö³åÍ»µÄ×ÜÊý£¬ÒÔ¼°¸÷ÖÖ¼¶±ð³åÍ»µÄÊýÁ¿
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  
 
-¶þ¡¢³åÍ»½â¾ö½¨Òé
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-1¡¢Ä¿Ç°Õâ¸ö²å¼þ¼ì²â³öµÄ³åÍ»²»»áµ¼ÖÂaoneÉÏ±àÒëÉó¼ÆÊ§°Ü£¬Ö»×÷Îª¿ª·¢½â¾ö³åÍ»µÄÒ»¸ö²Î¿¼ÐÅÏ¢
+1ï¿½ï¿½Ä¿Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä³ï¿½Í»ï¿½ï¿½ï¿½áµ¼ï¿½ï¿½aoneï¿½Ï±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½Ö»ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Î¿ï¿½ï¿½ï¿½Ï¢
 
  
 
-2¡¢´ÓÖÐÎÄÕ¾µÄÉ¨Ãè½á¹ûÀ´¿´£¬´ó²¿·ÖÓ¦ÓÃµÄ³åÍ»ÊýÁ¿¶¼ÔÚ100ÒÔÉÏ£¬µ«ÊÇÎªÊ²Ã´ÕâÐ©³åÍ»Æ½Ê±ºÜÉÙÒý·¢±àÒë»òÆô¶¯Òì³£ÄØ£¿ ÕâÊÇÒòÎªjvmµÄclass¼ÓÔØ»úÖÆÏà¶ÔÀ´ËµÊÇÎÈ¶¨µÄ£¬±ÈÈç×ÜÊÇ°´ÕÕ×ÖÄ¸ÅÅÐòµÄ·½Ê½¼ÓÔØclass¡£ µ«ÊÇÕâÖÖÎÈ¶¨¿ÉÄÜÒòÎª»·¾³µÄ±ä¶¯¶øÆÆ»µ£¬ÎÒÃÇ»¹ÊÇÇ¿ÁÒ½¨Òé¿ª·¢·ÖÎöºóÅÅ³ýÒ»Ð©³åÍ»Âß¼­Ã÷È·µÄ³åÍ»¡£
+2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ¾ï¿½ï¿½É¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ó²¿·ï¿½Ó¦ï¿½ÃµÄ³ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½100ï¿½ï¿½ï¿½Ï£ï¿½ï¿½ï¿½ï¿½ï¿½ÎªÊ²Ã´ï¿½ï¿½Ð©ï¿½ï¿½Í»Æ½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì³£ï¿½Ø£ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªjvmï¿½ï¿½classï¿½ï¿½ï¿½Ø»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½È¶ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ï¿½ï¿½Ä·ï¿½Ê½ï¿½ï¿½ï¿½ï¿½classï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½Ä±ä¶¯ï¿½ï¿½ï¿½Æ»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç»ï¿½ï¿½ï¿½Ç¿ï¿½Ò½ï¿½ï¿½é¿ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å³ï¿½Ò»Ð©ï¿½ï¿½Í»ï¿½ß¼ï¿½ï¿½ï¿½È·ï¿½Ä³ï¿½Í»ï¿½ï¿½
 
-3¡¢¸ù¾ÝÊµ¼ÊÏîÄ¿ÖÐÓöµ½ÒòÎªÍ¬ÃûÀà³åÍ»µ¼ÖÂÒì³£Ò»°ã¶¼ÊÇÒòÎªÏîÄ¿±¾ÉíÒýÈëÁËÐÂµÄÒÀÀµ£¬»òÕßÒòÎªÒýÓÃµÄÒÀÀµÎªSNAPSHOT°æ±¾£¬µ¼ÖÂ¼ä½ÓÒýÈëÁËÐÂµÄÒÀÀµ¶øµ¼ÖÂµÄ³åÍ»¡£µ±Ç°£¬Èç¹ûÊÇ¿ª·¢×Ô¼ºÒýÈëÐÂµÄjar£¬¿ÉÒÔÔÚ±àÒëÉó¼ÆÈÕÖ¾µÄ³åÍ»½á¹ûÀïËÑË÷ÏÂÕâ¸öjar£¬¿´ÓÐÃ»ÓÐ³åÍ»¡£
+3ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÎªÍ¬ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ì³£Ò»ï¿½ã¶¼ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ÎªSNAPSHOTï¿½æ±¾ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÂµÄ³ï¿½Í»ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¿ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½jarï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½Ä³ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jarï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð³ï¿½Í»ï¿½ï¿½
 
-Aone¿¼ÂÇÊµÏÖµÄ·½·¨£ºÎÒÃÇ¼ÙÉèÖ÷¸ÉµÄ³åÍ»ÊÇÎÈ¶¨µÄ£¬aone±£´æÃ¿´Î·¢²¼³É¹¦ºóÖ÷¸É°üµÄjarÁÐ±í£¬ÒÔ¼°³åÍ»ÁÐ±í£»·ÖÖ§Ã¿´Î±àÒëÍ¬Ñù´ò³öÒ»·ÝjarÁÐ±íºÍ³åÍ»ÁÐ±í£¬½øÐÐ±È¶Ô£¬²¢°Ñ²îÒìÏÔÊ¾¸øÓÃ»§¡££¨Õâ¸öÊµÏÖÒª¸úaone¿ª·¢Õâ±ß¹µÍ¨£©
+Aoneï¿½ï¿½ï¿½ï¿½Êµï¿½ÖµÄ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉµÄ³ï¿½Í»ï¿½ï¿½ï¿½È¶ï¿½ï¿½Ä£ï¿½aoneï¿½ï¿½ï¿½ï¿½Ã¿ï¿½Î·ï¿½ï¿½ï¿½ï¿½É¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É°ï¿½ï¿½jarï¿½Ð±?ï¿½Ô¼ï¿½ï¿½ï¿½Í»ï¿½Ð±?ï¿½ï¿½Ö§Ã¿ï¿½Î±ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½jarï¿½Ð±ï¿½Í³ï¿½Í»ï¿½Ð±?ï¿½ï¿½ï¿½Ð±È¶Ô£ï¿½ï¿½ï¿½ï¿½Ñ²ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½Òªï¿½ï¿½aoneï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß¹ï¿½Í¨ï¿½ï¿½
 
-4¡¢Õû¸ö¼¯ÍÅmvn¿âµÄÈÚºÏ£¬³åÍ»µÄ½â¾ö×¢¶¨ÊÇÒ»¸ö¼è¾Þ¶ø¸´ÔÓµÄ¹¤×÷£¬Åä¹Ü»áowner²¢Ð­Í¬¸÷¸öBUµÄ¼Ü¹¹Ê¦£¬¿ª·¢ÒÔ¼°Ò»Ð©ÈÈÐÄµÄmaven×¨¼ÒÒ»ÆðÏµÍ³µÄÍÆ½øÕâ¸ö¹¤×÷¡£
-
-
+4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mvnï¿½ï¿½ï¿½ï¿½ÚºÏ£ï¿½ï¿½ï¿½Í»ï¿½Ä½ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Þ¶ï¿½ï¿½ÓµÄ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü»ï¿½ownerï¿½ï¿½Ð­Í¬ï¿½ï¿½ï¿½ï¿½BUï¿½Ä¼Ü¹ï¿½Ê¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½Ò»Ð©ï¿½ï¿½ï¿½Äµï¿½maven×¨ï¿½ï¿½Ò»ï¿½ï¿½ÏµÍ³ï¿½ï¿½ï¿½Æ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 
-¸ß¼¶¼¼ÇÉ (pv:check¶ÀÓÐ)
-Ä¬ÈÏcheck²å¼þ»áÉ¨ÃèËùÓÐÖÖÀàµÄ¹¤³Ì£¬ÏëÏÞÖÆÖ»É¨Ãèwar¡¢car£¿ *1.1°æ±¾ÐÂÔö
-ÅäÖÃ²ÎÊýcheckPackaging
+
+
+ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½ (pv:checkï¿½ï¿½ï¿½ï¿½)
+Ä¬ï¿½ï¿½checkï¿½ï¿½ï¿½ï¿½ï¿½É¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¹ï¿½ï¿½Ì£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö»É¨ï¿½ï¿½warï¿½ï¿½carï¿½ï¿½ *1.1ï¿½æ±¾ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½Ã²ï¿½ï¿½ï¿½checkPackaging
 
 <plugin>
-    <groupId>com.alibaba.maven.plugins</groupId>
+    <groupId>org.ck.maven.plugins</groupId>
     <artifactId>maven-pv-plugin</artifactId>
     <version>${pv.version}</version>
     <executions>
@@ -225,17 +218,17 @@ Aone¿¼ÂÇÊµÏÖµÄ·½·¨£ºÎÒÃÇ¼ÙÉèÖ÷¸ÉµÄ³åÍ»ÊÇÎÈ¶¨µÄ£¬aone±£´æÃ¿´Î·¢²¼³É¹¦ºóÖ÷¸É°üµÄja
           <goal>check</goal>
         </goals>
         <configuration>
-          <!-- Ä¬ÈÏÎª¿Õ£¬»ò²»ÅäÖÃ´Ë²ÎÊý±íÊ¾²»ÏÞÖÆ¹¤³ÌÀàÐÍ-->
+          <!-- Ä¬ï¿½ï¿½Îªï¿½Õ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã´Ë²ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½Æ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-->
           <checkPackaging>war,car</checkPackaging>
         </configuration>
       </execution>
     </executions>
 </plugin>
-Ä¬ÈÏcheck²å¼þ»áÉ¨ÃèËùÒÔÀàÐÍµÄÒÀÀµ£¬²»ÏñÉ¨Ãètest¡¢providedÀàÐÍµÄscope£¿ *1.1°æ±¾ÐÂÔö
-ÅäÖÃ²ÎÊýcheckWithoutScope
+Ä¬ï¿½ï¿½checkï¿½ï¿½ï¿½ï¿½ï¿½É¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Íµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¨ï¿½ï¿½testï¿½ï¿½providedï¿½ï¿½ï¿½Íµï¿½scopeï¿½ï¿½ *1.1ï¿½æ±¾ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½Ã²ï¿½ï¿½ï¿½checkWithoutScope
 
 <plugin>
-    <groupId>com.alibaba.maven.plugins</groupId>
+    <groupId>org.ck.maven.plugins</groupId>
     <artifactId>maven-pv-plugin</artifactId>
     <version>${pv.version}</version>
     <executions>
@@ -245,18 +238,18 @@ Aone¿¼ÂÇÊµÏÖµÄ·½·¨£ºÎÒÃÇ¼ÙÉèÖ÷¸ÉµÄ³åÍ»ÊÇÎÈ¶¨µÄ£¬aone±£´æÃ¿´Î·¢²¼³É¹¦ºóÖ÷¸É°üµÄja
           <goal>check</goal>
         </goals>
         <configuration>
-          <!-- Ä¬ÈÏÎª¿Õ£¬»ò²»ÅäÖÃ´Ë²ÎÊý±íÊ¾È«²¿ÀàÐÍscope¶¼É¨Ãè-->
+          <!-- Ä¬ï¿½ï¿½Îªï¿½Õ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã´Ë²ï¿½ï¿½ï¿½ï¿½Ê¾È«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½scopeï¿½ï¿½É¨ï¿½ï¿½-->
           <checkWithoutScope>test,provided,system</checkWithoutScope>
         </configuration>
       </execution>
     </executions>
 </plugin>
-¸ß¼¶¼¼ÇÉ (pv:check¡¢pv:check-warÍ¨ÓÃ)
-É¨Ãè³öfatal¼¶±ðµÄ³åÍ»£¬Ï£Íû±àÒëÊ§°Ü¡¢´ò°üÊ§°ÜÈçºÎ²Ù×÷£¿
-ÅäÖÃ²ÎÊýisTerminatePackaging
+ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½ (pv:checkï¿½ï¿½pv:check-warÍ¨ï¿½ï¿½)
+É¨ï¿½ï¿½ï¿½fatalï¿½ï¿½ï¿½ï¿½Ä³ï¿½Í»ï¿½ï¿½Ï£ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü¡ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½ï¿½ï¿½Î²ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½Ã²ï¿½ï¿½ï¿½isTerminatePackaging
 
 <plugin>
-    <groupId>com.alibaba.maven.plugins</groupId>
+    <groupId>org.ck.maven.plugins</groupId>
     <artifactId>maven-pv-plugin</artifactId>
     <version>${pv.version}</version>
     <executions>
@@ -266,17 +259,17 @@ Aone¿¼ÂÇÊµÏÖµÄ·½·¨£ºÎÒÃÇ¼ÙÉèÖ÷¸ÉµÄ³åÍ»ÊÇÎÈ¶¨µÄ£¬aone±£´æÃ¿´Î·¢²¼³É¹¦ºóÖ÷¸É°üµÄja
           <goal>check-war</goal>
         </goals>
         <configuration>
-          <!-- Ä¬ÈÏ false -->
+          <!-- Ä¬ï¿½ï¿½ false -->
           <isTerminatePackaging>true</isTerminatePackaging>
         </configuration>
       </execution>
     </executions>
 </plugin>
-É¨Ãè³öfatal¼¶±ðµÄ³åÍ»£¬Ï£ÍûÉ¾³ý´òºÃµÄ°ü£¿
-Í¬Ê±ÅäÖÃ²ÎÊýisDeleteFailurePackage¡¢isTerminatePackaging
+É¨ï¿½ï¿½ï¿½fatalï¿½ï¿½ï¿½ï¿½Ä³ï¿½Í»ï¿½ï¿½Ï£ï¿½ï¿½É¾ï¿½ï¿½ï¿½ÃµÄ°ï¿½
+Í¬Ê±ï¿½ï¿½ï¿½Ã²ï¿½ï¿½ï¿½isDeleteFailurePackageï¿½ï¿½isTerminatePackaging
 
 <plugin>
-    <groupId>com.alibaba.maven.plugins</groupId>
+    <groupId>org.ck.maven.plugins</groupId>
     <artifactId>maven-pv-plugin</artifactId>
     <version>${pv.version}</version>
     <executions>
@@ -286,20 +279,20 @@ Aone¿¼ÂÇÊµÏÖµÄ·½·¨£ºÎÒÃÇ¼ÙÉèÖ÷¸ÉµÄ³åÍ»ÊÇÎÈ¶¨µÄ£¬aone±£´æÃ¿´Î·¢²¼³É¹¦ºóÖ÷¸É°üµÄja
           <goal>check-war</goal>
         </goals>
         <configuration>
-          <!-- ÏÂÃæ2¸ö²ÎÊýÐèÒªÍ¬Ê±ÅäÖÃÎªtrue -->
-          <!-- Ä¬ÈÏ false -->
+          <!-- ï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒªÍ¬Ê±ï¿½ï¿½ï¿½ï¿½Îªtrue -->
+          <!-- Ä¬ï¿½ï¿½ false -->
           <isTerminatePackaging>true</isTerminatePackaging>
-          <!-- Ä¬ÈÏ false -->
+          <!-- Ä¬ï¿½ï¿½ false -->
           <isDeleteFailurePackage>true</isDeleteFailurePackage>
         </configuration>
       </execution>
     </executions>
 </plugin>
-É¨Ãè³öerror¡¢warn¼¶±ðµÄ³åÍ»£¬Ò²Ï£ÍûÊÜµ½ÉÏ¶þÏîÅäÖÃµÄÓ°Ïì£¨ÌáÊ¾±àÒëÊ§°Ü¡¢É¾³ý±àÒëÊ§°ÜµÄ°ü£©£¿
-¶àÅäÖÃÒ»¸ö²å¼þ²ÎÊýlevel£¬Ö¸¶¨¼¶±ðÎªwarn»òÕßerror
+É¨ï¿½ï¿½ï¿½errorï¿½ï¿½warnï¿½ï¿½ï¿½ï¿½Ä³ï¿½Í»ï¿½ï¿½Ò²Ï£ï¿½ï¿½ï¿½Üµï¿½ï¿½Ï¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½Ó°ï¿½ì£¨ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü¡ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ÜµÄ°ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½levelï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªwarnï¿½ï¿½ï¿½ï¿½error
 
 <plugin>
-    <groupId>com.alibaba.maven.plugins</groupId>
+    <groupId>org.ck.maven.plugins</groupId>
     <artifactId>maven-pv-plugin</artifactId>
     <version>${pv.version}</version>
     <executions>
@@ -309,22 +302,22 @@ Aone¿¼ÂÇÊµÏÖµÄ·½·¨£ºÎÒÃÇ¼ÙÉèÖ÷¸ÉµÄ³åÍ»ÊÇÎÈ¶¨µÄ£¬aone±£´æÃ¿´Î·¢²¼³É¹¦ºóÖ÷¸É°üµÄja
           <goal>check-war</goal>
         </goals>
         <configuration>
-          <!-- Í¬Ê±ÅäÖÃÏÂÃæ3¸ö²ÎÊý -->
-          <!-- Ä¬ÈÏ fatal -->
+          <!-- Í¬Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½3ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -->
+          <!-- Ä¬ï¿½ï¿½ fatal -->
           <level>error</level>
-          <!-- Ä¬ÈÏ false -->
+          <!-- Ä¬ï¿½ï¿½ false -->
           <isTerminatePackaging>true</isTerminatePackaging>
-          <!-- Ä¬ÈÏ false -->
+          <!-- Ä¬ï¿½ï¿½ false -->
           <isDeleteFailurePackage>true</isDeleteFailurePackage>
         </configuration>
       </execution>
     </executions>
 </plugin>
-ÉèÖÃÑÏ¸ñµ½warn¼¶±ðºó£¬É¨Ãèµ½µÄÒ»¸ö³åÍ»Ïî£¬·ÖÎöºóÈÏÎªÊÇºÏÀíµÄ£¬ÏëÅÅ³ýÕâ¸ö³åÍ»µÄÌáÊ¾ÔõÃ´°ì£¿
-ÅäÖÃÒ»¸öwarnºöÂÔÁÐ±í£¬ÒªºöÂÔÄÄ¸ö³åÍ»Ïî£¬Ð´ÄÄ¸ö³åÍ»ÏîµÄID¡£
+ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½warnï¿½ï¿½ï¿½ï¿½ï¿½É¨ï¿½èµ½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Í»ï¿½î£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½Çºï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½Å³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½Ã´ï¿½ì£¿
+ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½warnï¿½ï¿½ï¿½ï¿½ï¿½Ð±?Òªï¿½ï¿½ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ï¿½Í»ï¿½î£¬Ð´ï¿½Ä¸ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½IDï¿½ï¿½
 
 <plugin>
-    <groupId>com.alibaba.maven.plugins</groupId>
+    <groupId>org.ck.maven.plugins</groupId>
     <artifactId>maven-pv-plugin</artifactId>
     <version>${pv.version}</version>
     <executions>
@@ -334,14 +327,14 @@ Aone¿¼ÂÇÊµÏÖµÄ·½·¨£ºÎÒÃÇ¼ÙÉèÖ÷¸ÉµÄ³åÍ»ÊÇÎÈ¶¨µÄ£¬aone±£´æÃ¿´Î·¢²¼³É¹¦ºóÖ÷¸É°üµÄja
           <goal>check-war</goal>
         </goals>
         <configuration>
-          <!-- Í¬Ê±ÅäÖÃÏÂÃæ4¸ö²ÎÊý -->
-          <!-- Ä¬ÈÏ fatal -->
+          <!-- Í¬Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -->
+          <!-- Ä¬ï¿½ï¿½ fatal -->
           <level>warn</level>
-          <!-- Ä¬ÈÏ false -->
+          <!-- Ä¬ï¿½ï¿½ false -->
           <isTerminatePackaging>true</isTerminatePackaging>
-          <!-- Ä¬ÈÏ false -->
+          <!-- Ä¬ï¿½ï¿½ false -->
           <isDeleteFailurePackage>true</isDeleteFailurePackage>
-          <!-- warn¼¶±ð³åÍ»ºöÂÔÁÐ±í£¬ÌîÐ´³åÍ»µÄID -->
+          <!-- warnï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½Ð±?ï¿½ï¿½Ð´ï¿½ï¿½Í»ï¿½ï¿½ID -->
           <excludes>
             <exclude>xxxxxxxx</exclude>
           </excludes>
@@ -349,9 +342,9 @@ Aone¿¼ÂÇÊµÏÖµÄ·½·¨£ºÎÒÃÇ¼ÙÉèÖ÷¸ÉµÄ³åÍ»ÊÇÎÈ¶¨µÄ£¬aone±£´æÃ¿´Î·¢²¼³É¹¦ºóÖ÷¸É°üµÄja
       </execution>
     </executions>
 </plugin>
-¸ß¼¶¼¼ÇÉ (pv:check-war¶ÀÓÐ)
-*£¨Í¨³£²»ÐèÒª¿¼ÂÇ£©±àÒëÂ·¾¶target²ÉÓÃ×Ô¶¨ÒåÂ·¾¶£¿
-ÅäÖÃtarget²ÎÊý¡£
+ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½ (pv:check-warï¿½ï¿½ï¿½ï¿½)
+*ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½Ç£ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½targetï¿½ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½targetï¿½ï¿½ï¿½ï¿½
 
-*£¨Í¨³£²»ÐèÒª¿¼ÂÇ£©ÎÒµÄweb¹¤³ÌpomÅäÖÃºÜÌØÊâ£¬±àÒë´ò°üÉú³É²»²ÉÓÃÄ¬ÈÏÂ·¾¶¡£
-ÅäÖÃwarÂ·¾¶²ÎÊýwarDirPath¡¢warPath
+*ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½Ç£ï¿½ï¿½Òµï¿½webï¿½ï¿½ï¿½ï¿½pomï¿½ï¿½ï¿½Ãºï¿½ï¿½ï¿½ï¿½â£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É²ï¿½ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½warÂ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½warDirPathï¿½ï¿½warPath

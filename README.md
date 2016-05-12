@@ -10,7 +10,8 @@ Maven默认使用的IoC容器：plexus
 
 依赖配置在：META-INF/plexus/components.xml
 
-install到本地之后，使用  mvn ck.maven:pv-plugin:check
-
+install到本地之后，使用  
+mvn ck.maven:pv-plugin:check -DcheckPackaging=war,car -DcheckWithoutScope=test,provided,system
+mvn ck.maven:pv-plugin:check-war
 
 
