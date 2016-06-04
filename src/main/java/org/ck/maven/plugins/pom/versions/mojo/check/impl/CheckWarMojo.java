@@ -1,4 +1,4 @@
-package org.ck.maven.plugins.pom.versions.mojo;
+package org.ck.maven.plugins.pom.versions.mojo.check.impl;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -10,10 +10,12 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.ck.maven.plugins.pom.versions.model.check.MyArtifact;
+import org.ck.maven.plugins.pom.versions.mojo.check.AbstractCheckMojo;
 
 /**
  * 
  * check-war
+ * 检查war包
  * 
  * @goal check-war
  * @phase package

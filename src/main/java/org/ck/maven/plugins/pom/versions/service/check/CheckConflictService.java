@@ -50,6 +50,7 @@ public class CheckConflictService extends AbstractLogEnabled {
         Map<String, Jar> allJar = new HashMap<String, Jar>();
         List<String> allClassList = new ArrayList<String>();
 
+        //遍历得到maven依赖中的所有的类，所有的jar包
         for (MyArtifact artifact : artifacts) {
 
             if (StringUtils.isBlank(artifact.getGroupId())) {
@@ -129,7 +130,8 @@ public class CheckConflictService extends AbstractLogEnabled {
             this.getLogger().debug("conflictClassMap : " + conflictClassMap.size());
         }
 
-        //conflictClassMap 转换成 conflictJarCountMap
+        //conflictClassMap 转换成 key为"jar路径||jar路径……"，value为类名的list
+        //得到这些jar包冲突的类
         Map<String, List<String>> conflictJarCountMap = new HashMap<String, List<String>>();
         String key;
         List<String> value;
@@ -159,7 +161,7 @@ public class CheckConflictService extends AbstractLogEnabled {
 
     /**
      * 
-     * @param conflictJarCountMap key:类名，value：jar包的list
+     * @param conflictJarCountMap key:"jar路径||jar路径……"，value：类名的list
      * @param allJar
      * @return
      * @throws Exception
@@ -190,6 +192,13 @@ public class CheckConflictService extends AbstractLogEnabled {
         return returnResult(allConflictList);
     }
 
+    /**
+     * 在jar list中冲突的class列表
+     * @param jarList
+     * @param conflictClassList
+     * @return
+     * @throws Exception
+     */
     private Conflict createConflict(List<Jar> jarList, List<String> conflictClassList) throws Exception {
         Conflict conflict = new Conflict();
         String id = "";
@@ -211,13 +220,16 @@ public class CheckConflictService extends AbstractLogEnabled {
 
         for (Conflict conflict : allConflictList) {
 
+        	//处理冲突子集的问题
             for (Conflict conflict2 : allConflictList) {
                 if (conflict.getJarList().size() < conflict2.getJarList().size()) {
                     processConflict(conflict, conflict2);
                 }
             }
+            //设置冲突的等级
             ConflictLevel level = ConflictLevel.warn;
             for (Jar jar : conflict.getJarList()) {
+            	//如果某个jar的所有类都冲突，为error，表示需要再确认是否jar内容不一样
                 if (conflict.getFinalConflictcount() == jar.getClassList().size()) {
                     level = ConflictLevel.error;
                 }
@@ -227,8 +239,10 @@ public class CheckConflictService extends AbstractLogEnabled {
             if (ConflictLevel.warn == conflict.getLevel()) {
                 warnConflictList.add(conflict);
             } else if (ConflictLevel.error == conflict.getLevel()) {
+            	//jar包的内容都一样，但是版本不一样
                 errorConflictList.add(conflict);
             } else {
+            	//jar包的内容不一样、版本不一样
                 fatalConflictList.add(conflict);
             }
         }
@@ -239,6 +253,11 @@ public class CheckConflictService extends AbstractLogEnabled {
         return r;
     }
 
+    /**
+     * 处理jar list子集的问题，如果一个Conflict的jarList是另一个Conflict的jarList的子集，那么需要给该Conflict增加FinalConflictcount
+     * @param conflict1
+     * @param conflict2
+     */
     private void processConflict(Conflict conflict1, Conflict conflict2) {
         List<Jar> jarList1 = conflict1.getJarList();
         List<String> jarNames1 = new ArrayList<String>();
@@ -252,6 +271,7 @@ public class CheckConflictService extends AbstractLogEnabled {
             jarNames2.add(jar.getJarFileName());
         }
 
+        //判断有几个jar是一样的
         List<Boolean> bl = new ArrayList<Boolean>();
         for (int i = 0; i < jarNames1.size(); i++) {
             String name1 = jarNames1.get(i);
@@ -271,6 +291,7 @@ public class CheckConflictService extends AbstractLogEnabled {
             }
         }
 
+        //如果所有jarList1是jarList2的子集
         if (trueCount == jarList1.size()) {
             int count1 = conflict1.getFinalConflictcount();
             int count2 = conflict2.getFinalConflictcount();
@@ -292,6 +313,7 @@ public class CheckConflictService extends AbstractLogEnabled {
                 counts[num] = jar.getClassList().size();
                 num++;
             }
+            //查看所有jar的类数量是否都一样，都等于FinalConflictcount
             boolean m = true;
             for (int i = 0; i < counts.length - 1; i++) {
                 if (counts[i] != counts[i + 1]) {
@@ -301,6 +323,7 @@ public class CheckConflictService extends AbstractLogEnabled {
             }
 
             if (m) {
+            	//jar包中的类数量一致，最后校验一次MD5，错误登记为fatal
                 for (int i = 0; i < jarList.size() - 1; i++) {
                     if (!jarList.get(i).getMD5().equals(jarList.get(i + 1).getMD5())) {
                         conflict.setDesc("The jars conflict.");
@@ -310,6 +333,7 @@ public class CheckConflictService extends AbstractLogEnabled {
                     }
                 }
             } else {
+            	//jar包中的类数量不一致，最后校验一次MD5，错误登记为fatal
                 conflict.setDesc("The jars may be the inclusion relationship conflict.");
                 conflict.setLevel(ConflictLevel.fatal); // up level
             }

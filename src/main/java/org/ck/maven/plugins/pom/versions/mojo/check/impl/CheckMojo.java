@@ -1,4 +1,4 @@
-package org.ck.maven.plugins.pom.versions.mojo;
+package org.ck.maven.plugins.pom.versions.mojo.check.impl;
 
 import java.io.File;
 import java.util.Set;
@@ -8,6 +8,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.maven.artifact.Artifact;
 import org.ck.maven.plugins.pom.versions.model.check.MyArtifact;
+import org.ck.maven.plugins.pom.versions.mojo.check.AbstractCheckMojo;
 
 /**
  * 

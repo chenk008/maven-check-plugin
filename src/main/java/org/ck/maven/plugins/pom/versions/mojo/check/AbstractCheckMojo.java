@@ -1,4 +1,4 @@
-package org.ck.maven.plugins.pom.versions.mojo;
+package org.ck.maven.plugins.pom.versions.mojo.check;
 
 import java.util.Set;
 
@@ -44,7 +44,7 @@ public abstract class AbstractCheckMojo extends AbstractMojo {
      */
     protected String target;
     /**
-     * isDeleteFailurePackage
+     * isDeleteFailurePackage 如果发生冲突，是否要删除生成的包
      * 
      * @parameter expression="${isDeleteFailurePackage}" default-value="false"
      * 
@@ -57,7 +57,7 @@ public abstract class AbstractCheckMojo extends AbstractMojo {
      */
     private boolean isCreateDetailDoc;
     /**
-     * Found conflict whether to terminate packaging
+     * Found conflict whether to terminate packaging  如果发生冲突，是否要中断打包
      * 
      * @parameter expression="${isTerminatePackaging}" default-value="false"
      */
@@ -145,6 +145,11 @@ public abstract class AbstractCheckMojo extends AbstractMojo {
      */
     protected abstract Set<MyArtifact> queryArtifacts() throws MojoExecutionException;
 
+    /**
+     * 判断是否需要执行检查
+     * @return
+     * @throws MojoExecutionException
+     */
     protected abstract boolean customMethod() throws MojoExecutionException;
 
     protected abstract void deletePackage() throws MojoExecutionException;
