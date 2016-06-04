@@ -15,7 +15,7 @@ import org.ck.maven.plugins.pom.versions.service.check.CheckConflictService;
 import org.ck.maven.plugins.pom.versions.service.check.ProcessConflictService;
 
 /**
- * 
+ * 检查包冲突
  * 
  */
 public abstract class AbstractCheckMojo extends AbstractMojo {
@@ -138,6 +138,11 @@ public abstract class AbstractCheckMojo extends AbstractMojo {
 
     }
 
+    /**
+     * 得到所有的atrifact
+     * @return
+     * @throws MojoExecutionException
+     */
     protected abstract Set<MyArtifact> queryArtifacts() throws MojoExecutionException;
 
     protected abstract boolean customMethod() throws MojoExecutionException;

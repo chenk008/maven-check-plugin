@@ -12,7 +12,7 @@ import org.ck.maven.plugins.pom.versions.model.check.MyArtifact;
 /**
  * 
  * check dependencies conflict
- * 检查依赖冲突
+ * 打包过程中，检查依赖冲突
  * 
  * @goal check
  * @phase package

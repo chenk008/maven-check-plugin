@@ -97,7 +97,7 @@ public class CheckConflictService extends AbstractLogEnabled {
     /**
      * 分析class冲突
      * 
-     * @param allClassList
+     * @param allClassList 内容格式:"jar文件路径||类名"
      * @param allJar
      * @return
      * @throws IOException
@@ -109,10 +109,12 @@ public class CheckConflictService extends AbstractLogEnabled {
         String mapValue;
         Map<String, String> conflictClassMap = new HashMap<String, String>();
 
+        //找到冲突的类
         for (String clazz : allClassList) {
             splitStr = clazz.split("\\|\\|");
             mapValue = conflictClassMap.get(splitStr[0]);
             if (StringUtils.isNotBlank(mapValue)) {
+            	//用||分隔所有包含该类的jar包文件路径
                 conflictClassMap.put(splitStr[0], mapValue + "||" + splitStr[1]);
             } else {
                 conflictClassMap.put(splitStr[0], splitStr[1]);
@@ -127,6 +129,7 @@ public class CheckConflictService extends AbstractLogEnabled {
             this.getLogger().debug("conflictClassMap : " + conflictClassMap.size());
         }
 
+        //conflictClassMap 转换成 conflictJarCountMap
         Map<String, List<String>> conflictJarCountMap = new HashMap<String, List<String>>();
         String key;
         List<String> value;
@@ -154,6 +157,13 @@ public class CheckConflictService extends AbstractLogEnabled {
 
     }
 
+    /**
+     * 
+     * @param conflictJarCountMap key:类名，value：jar包的list
+     * @param allJar
+     * @return
+     * @throws Exception
+     */
     private CheckConflictResult processResult(Map<String, List<String>> conflictJarCountMap, Map<String, Jar> allJar)
             throws Exception {
         List<Jar> jarList;
@@ -315,7 +325,7 @@ public class CheckConflictService extends AbstractLogEnabled {
      * @param jarFilePath jar文件物理路径
      * @param artifact
      * @param allClassList class收集器，钩子出参，如果不需要请传递null
-     * @return 如何这个jar包中不包含class，则返回null
+     * @return 如果这个jar包中不包含class，则返回null
      * @throws Exception
      */
     public Jar searchJarAndStuff(File file, MyArtifact artifact, List<String> allClassList) throws Exception {
