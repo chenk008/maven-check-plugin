@@ -20,7 +20,7 @@ import org.ck.maven.plugins.pom.versions.model.check.MyArtifact;
  * @requiresProject true
  * @requiresDependencyResolution test
  * 
- * 
+ * 列出所有的依赖
  * 
  */
 public class SearchArtifactsMojo extends AbstractMojo {

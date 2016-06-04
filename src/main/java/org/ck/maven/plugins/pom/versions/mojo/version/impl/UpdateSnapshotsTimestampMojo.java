@@ -1,4 +1,4 @@
-package org.ck.maven.plugins.pom.versions.mojo;
+package org.ck.maven.plugins.pom.versions.mojo.version.impl;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -24,11 +24,13 @@ import org.apache.maven.plugin.MojoFailureException;
 import org.ck.maven.plugins.pom.versions.common.NotLockVersionException;
 import org.ck.maven.plugins.pom.versions.model.MyDependency;
 import org.ck.maven.plugins.pom.versions.model.VersionType;
-import org.ck.maven.plugins.pom.versions.service.PomXmlService;
+import org.ck.maven.plugins.pom.versions.mojo.version.AbstractVersionsMojo;
+import org.ck.maven.plugins.pom.versions.service.version.PomXmlService;
 
 /**
  * 
  * update snapshot dependencies
+ * 更新snapshot到最新的snapshot
  * 
  * @goal update-snapshots
  * @requiresProject true
@@ -172,6 +174,13 @@ public class UpdateSnapshotsTimestampMojo extends AbstractVersionsMojo {
 
     private final static String template = "* {0} | {1} >> {2} | from repository : {3}";
 
+    /**
+     * 更新snapshot的版本
+     * @param needDependencyMap
+     * @param pomService
+     * @throws MojoExecutionException
+     * @throws MojoFailureException
+     */
     private void setDependencysVersion(Map<Integer, MyDependency> needDependencyMap, PomXmlService pomService)
             throws MojoExecutionException, MojoFailureException {
         InputStreamReader stdin = new InputStreamReader(System.in);
@@ -225,6 +234,11 @@ public class UpdateSnapshotsTimestampMojo extends AbstractVersionsMojo {
         }
     }
 
+    /**
+     * 检查某个依赖的元数据
+     * @param myDependency
+     * @throws MojoFailureException
+     */
     private void checkDependencyMetadata(MyDependency myDependency) throws MojoFailureException {
         try {
             Artifact artifact = this.getArtifactFactory().createArtifact(myDependency.getGroupId(),

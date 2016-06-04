@@ -1,5 +1,3 @@
-个人学习项目
-
 插件介绍
 
 每次发布的时候，遇到jar依赖冲突很苦恼，本插件就是为了帮助你扫描冲突的。
@@ -15,5 +13,9 @@ install到本地之后，使用
 mvn ck.maven:pv-plugin:check -DcheckPackaging=war,car -DcheckWithoutScope=test,provided,system
 
 mvn ck.maven:pv-plugin:check-war
+
+mvn ck.maven:pv-plugin:sa
+
+mvn ck.maven:pv-plugin:update-snapshots
 
 

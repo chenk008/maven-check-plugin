@@ -1,4 +1,4 @@
-package org.ck.maven.plugins.pom.versions.service;
+package org.ck.maven.plugins.pom.versions.service.version;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -86,9 +86,9 @@ public class PomXmlService {
         Element dependencyManagementElement = projectElement.element(elementNames[0]); // dependencyManagement
         if (dependencyManagementElement != null) {
             myDependencySet.addAll(getMyDependencysByDependenciesElement(
-                    dependencyManagementElement.element(elementNames[1]), true));
+                    dependencyManagementElement.element(elementNames[1]), true));//dependencyManagement中的dependencies
         }
-        myDependencySet.addAll(getMyDependencysByDependenciesElement(projectElement.element(elementNames[1]), false));
+        myDependencySet.addAll(getMyDependencysByDependenciesElement(projectElement.element(elementNames[1]), false));//project中的dependency
         return myDependencySet;
     }
 

@@ -1,4 +1,4 @@
-package org.ck.maven.plugins.pom.versions.service;
+package org.ck.maven.plugins.pom.versions.service.version;
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -62,6 +62,7 @@ public class PomVersionRepositoryMetadataManager
     implements RepositoryMetadataManager
 {
     // component requirement
+	// 下载依赖
     private WagonManager wagonManager;
 
     /**
@@ -69,6 +70,12 @@ public class PomVersionRepositoryMetadataManager
      */
     private Set cachedMetadata = new HashSet();
 
+    /**
+     * 解析某个依赖
+     * metadata 需要解析的依赖
+     * remoteRepositories 远程的maven库
+     * localRepository 本地的maven库
+     */
     public void resolve( RepositoryMetadata metadata, List remoteRepositories, ArtifactRepository localRepository )
         throws RepositoryMetadataResolutionException
     {
@@ -146,6 +153,7 @@ public class PomVersionRepositoryMetadataManager
                                 }
                                 else
                                 {
+                                	//依赖不存在
                                     // this ensures that files are not continuously checked when they don't exist remotely
 
                                     // TODO: [jdcasey] If this happens as a result of ResourceDoesNotExistException, what effect will it have on subsequent runs?

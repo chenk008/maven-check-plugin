@@ -6,7 +6,7 @@
     <component>
       <role-hint>pv</role-hint>
       <role>org.apache.maven.artifact.repository.metadata.RepositoryMetadataManager</role>
-      <implementation>org.ck.maven.plugins.pom.versions.service.PomVersionRepositoryMetadataManager
+      <implementation>org.ck.maven.plugins.pom.versions.service.version.PomVersionRepositoryMetadataManager
       </implementation>
       <requirements>
         <requirement>
@@ -16,8 +16,8 @@
     </component>
 
     <component>
-      <role>org.ck.maven.plugins.pom.versions.service.RemoteArtifactRepositoriesReadService</role>
-      <implementation>org.ck.maven.plugins.pom.versions.service.RemoteArtifactRepositoriesReadService
+      <role>org.ck.maven.plugins.pom.versions.service.version.RemoteArtifactRepositoriesReadService</role>
+      <implementation>org.ck.maven.plugins.pom.versions.service.version.RemoteArtifactRepositoriesReadService
       </implementation>
       <requirements>
         <requirement>

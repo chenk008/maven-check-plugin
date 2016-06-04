@@ -1,4 +1,4 @@
-package org.ck.maven.plugins.pom.versions.service;
+package org.ck.maven.plugins.pom.versions.service.version;
 
 import java.io.IOException;
 import java.util.ArrayList;

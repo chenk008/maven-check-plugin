@@ -1,4 +1,4 @@
-package org.ck.maven.plugins.pom.versions.mojo;
+package org.ck.maven.plugins.pom.versions.mojo.version;
 
 import java.io.IOException;
 import java.util.List;
@@ -14,8 +14,8 @@ import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugin.MojoFailureException;
 import org.apache.maven.project.MavenProject;
 import org.ck.maven.plugins.pom.versions.model.MyDependency;
-import org.ck.maven.plugins.pom.versions.service.PomXmlService;
-import org.ck.maven.plugins.pom.versions.service.RemoteArtifactRepositoriesReadService;
+import org.ck.maven.plugins.pom.versions.service.version.PomXmlService;
+import org.ck.maven.plugins.pom.versions.service.version.RemoteArtifactRepositoriesReadService;
 import org.dom4j.DocumentException;
 
 public abstract class AbstractVersionsMojo extends AbstractMojo {
